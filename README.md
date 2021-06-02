@@ -1,5 +1,8 @@
 # sumitdevops
 
+To build application :
+gradle clean build
+
 To create docker image :
 "docker build -f Dockerfile -t docker-spring-boot:1.0 ."
 
