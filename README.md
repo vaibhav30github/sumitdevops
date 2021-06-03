@@ -2,6 +2,7 @@
 
 To build application :
 gradle clean build
+First Push
 
 To create docker image :
 "docker build -f Dockerfile -t docker-spring-boot:1.0 ."
