@@ -1,7 +1,7 @@
 # sumitdevops
 
 To build application :
-gradle clean build
+gradle clean build --refresh-dependencies
 First Push
 Second Push
 Third Push
