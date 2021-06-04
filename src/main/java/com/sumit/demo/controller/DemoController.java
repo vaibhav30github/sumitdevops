@@ -10,4 +10,8 @@ public class DemoController {
 	public String testData() {
 		return "Hi Sumit";
 	}
+	@GetMapping("/jenkinstest")
+	public String jenkinsTest() {
+		return "jenkins test ....";
+	}
 }
