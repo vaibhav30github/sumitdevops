@@ -6,6 +6,7 @@ First Push
 Second Push
 Third Push
 Fourth Push
+Docker Push
 
 To create docker image :
 "docker build -f Dockerfile -t docker-spring-boot:1.0 ."
