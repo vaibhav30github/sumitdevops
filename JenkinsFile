@@ -1,6 +1,9 @@
 pipeline{
     
     agent any
+    tools{
+     jdk 'JDK_16'
+    }
     environment { 
         registry = "sumitrana/devops_images" 
         registryCredential = '68d627f0-f834-41c0-a569-2a97785b6497' 
