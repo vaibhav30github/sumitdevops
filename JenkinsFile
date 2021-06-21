@@ -17,7 +17,7 @@ pipeline{
         }
         stage("Jar Build"){
             steps{
-                bat './gradlew clean build'
+               sh './gradlew clean build'
             }
         }
         stage("Application Test"){
