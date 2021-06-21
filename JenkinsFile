@@ -17,6 +17,8 @@ pipeline{
         }
         stage("Jar Build"){
             steps{
+               sh 'java -version'
+               sh 'which java'
                sh './gradlew clean build' 
             }
         }
