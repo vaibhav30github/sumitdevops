@@ -6,8 +6,12 @@ First Push
 Second Push
 Third Push
 Fourth Push
+<<<<<<< HEAD
 verma 1st test push
 test
+=======
+Docker Push
+>>>>>>> SumitDevops
 
 To create docker image :
 "docker build -f Dockerfile -t docker-spring-boot:1.0 ."
